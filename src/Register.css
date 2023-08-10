@@ -1,0 +1,32 @@
+/* 
+.App {
+    background: linear-gradient(45deg, #ff5370, #ff869a, #ffcaaf, #ffd6b2, #ffedb5, #e2fab4, #bdf9c6, #a7ebef, #82aaff, #c792ea, #f78c6c, #ffcb6b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  } */
+
+ /* Register.css */
+
+/* Add this style to the input group to align the icon inside the input field */
+.input-group {
+  position: relative;
+}
+
+/* Add this style to set the width of the icons and adjust the padding */
+.input-group .input-group-text {
+  font-size: 1.3rem;
+font-weight: 400;
+background-color: #efe2f8;
+color:#4b0082;
+}
+
+/* Add this style to set the width of the input fields and leave space for the icon */
+.form-control {
+  padding-left: 40px; /* Adjust the padding as needed */
+}

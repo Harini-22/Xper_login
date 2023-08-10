@@ -1,0 +1,36 @@
+@import url('./bootstrap-variables.css');
+
+.list-group-item{
+  color: #4b0082;
+}
+
+.list-group a:hover{
+background-color:#881AEE;
+color: white;
+cursor: pointer;
+}
+
+.sidebar{
+    width:230px;
+    top:0;
+}
+
+.bg-custom {
+    background-color:#881AEE !important;
+  }
+
+  @media (max-width: 575.98px) {
+    /* Hide the text and only show the icons for small devices */
+    .list-group-item .fs-5 {
+      display: none;
+    }
+  }
+  
+  /* Styles for larger devices (screen width 576px and above) */
+  @media (min-width: 576px) {
+    /* Show both the icon and text for larger devices */
+    .list-group-item .fs-5 {
+      display: inline;
+    }
+  }
+  
